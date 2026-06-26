@@ -1,0 +1,31 @@
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body { 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+} 
+
+.cabecalho { 
+    background-color: aqua;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 25px; 
+} 
+.cabecalho-link { 
+  color: #7783ec; 
+  text-decoration: none; 
+} 
+.cartao {
+width: 260px;
+height: 200px;
+}
+
+.cartao-imagem {
+width: 100%;
+}
